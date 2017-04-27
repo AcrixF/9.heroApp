@@ -18,9 +18,18 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/sweetalert2/dist/sweetalert2.css",
+        "./assets/fa/css/font-awesome.css",
+        "../semantic/dist/semantic.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": ["../node_modules/jquery/dist/jquery.slim.js",
+        "../node_modules/tether/dist/js/tether.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/sweetalert2/dist/sweetalert2.js",
+        "../semantic/dist/semantic.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
